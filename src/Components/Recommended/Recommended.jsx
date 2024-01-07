@@ -4,7 +4,16 @@ import './Recommended.css'
 const Recommended = () => {
     return (
         <div>
-            <h1>Recommeded</h1>
+            <h1 className='recommeded-title'>Recommeded</h1>
+            <div className='recommeded-flex'>
+                <button className='btns'>All Products</button>
+            <button className='btns'>Nike</button>
+            <button className='btns'>Adidas</button>
+            <button className='btns'>Puma</button>
+            <button className='btns'>Vans</button>
+  
+            </div>
+          
         </div>
     );
 };

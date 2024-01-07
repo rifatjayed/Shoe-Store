@@ -4,16 +4,18 @@ import Navigation from './Components/Navigation/Navigation'
 import Products from './Components/Products/Products'
 
 import Recommended from './Components/Recommended/Recommended'
+import Sidebar from './Components/Sliderbar/Sidebar/Sidebar'
 
 
 function App() {
 
   return (
     <>
-      <h1>Hellow</h1>
+<Sidebar></Sidebar>
       <Navigation></Navigation>
-   <Products></Products>
       <Recommended></Recommended>
+      <Products></Products>
+      
     </>
   )
 }
