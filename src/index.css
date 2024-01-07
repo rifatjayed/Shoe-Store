@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -69,3 +69,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: rgb(97,97,97);
+}
+li{
+  list-style: none;
+}
+
+.btns{
+  padding: 10px 20px ;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  color: #323232;
+  cursor: pointer;
+}
