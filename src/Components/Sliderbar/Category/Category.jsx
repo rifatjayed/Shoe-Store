@@ -1,12 +1,13 @@
 import React from 'react';
 import './Category.css'
+import Input from '../../Share/Input';
 
 const Category = () => {
     return (
         <div>
-            <h2 className='sidebar-title'>Sidebar</h2>
+            <h2 className='sidebar-title'>Category</h2>
             <div>
-                <label className='sidebar-label-container'>
+                {/* <label className='sidebar-label-container'>
                     <input type="radio" name='test' />
                     <span className='checkmark'></span>All
                 </label>
@@ -25,8 +26,8 @@ const Category = () => {
                 <label className='sidebar-label-container'>
                     <input type="radio" name='test' />
                     <span className='checkmark'></span>Heels
-                </label>
-              
+                </label> */}
+              <Input></Input>
             </div>
         </div>
 

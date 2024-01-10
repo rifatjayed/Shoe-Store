@@ -1,11 +1,15 @@
 import React from 'react';
+import './Price.css'
+import Input from '../../Share/Input';
+
 
 const Price = () => {
+
     return (
         <div className='ml'>
 
             <h2 className='sidebar-title price-title'>Price</h2>
-            <label className='sidebar-label-container'>
+            {/* <label className='sidebar-label-container'>
                 <input type="radio" name='test2' />
                 <span className='checkmark'></span>All
             </label>
@@ -24,7 +28,8 @@ const Price = () => {
             <label className='sidebar-label-container'>
                 <input type="radio" name='test2' />
                 <span className='checkmark'></span>Over $150
-            </label>
+            </label> */}
+            <Input></Input>
 
         </div>
     );

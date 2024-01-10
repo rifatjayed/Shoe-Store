@@ -4,7 +4,11 @@ import { BsCart4 } from "react-icons/bs";
 import Category from '../Category/Category';
 import Color from '../Color/Color';
 import Price from '../Price/Price';
-const Sidebar = () => {
+
+
+
+const Sidebar = ({handleChange}) => {
+    console.log(handleChange)
     return (
         <div className='sidebar'>
             <div className="logo-container">

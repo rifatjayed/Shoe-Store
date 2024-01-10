@@ -2,9 +2,12 @@ import React from 'react';
 
 const Input = () => {
     return (
-        <div>
-            <h1>Input</h1>
-        </div>
+    
+              <label className='sidebar-label-container'>
+                <input type="radio" name='test' />
+                <span className='checkmark'></span>All
+            </label>
+ 
     );
 };
 
