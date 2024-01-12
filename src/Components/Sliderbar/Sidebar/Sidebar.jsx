@@ -15,9 +15,9 @@ const Sidebar = ({handleChange}) => {
                 <h1><BsCart4 />
                 </h1>
             </div>
-            <Category></Category>
-            <Price></Price>
-            <Color></Color>
+            <Category handleChange={handleChange}></Category>
+            <Price handleChange={handleChange}></Price>
+            <Color handleChange={handleChange}></Color>
         </div>
     );
 };

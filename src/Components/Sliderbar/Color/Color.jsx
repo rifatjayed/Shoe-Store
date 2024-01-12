@@ -2,33 +2,45 @@ import React from 'react';
 import './Color.css'
 import Input from '../../Share/Input';
 
-const Color = () => {
+const Color = ({handleChange}) => {
     return (
         <div>
            
 
-           {/* <label className='sidebar-label-container color-title'>
-                <input type="radio" name='test2' />
-                <span className='checkmark'></span>All
-            </label>
-            <label className='sidebar-label-container'>
-                <input type="radio" name='test2' />
-                <span className='checkmark'></span>Black
-            </label>
-            <label className='sidebar-label-container'>
-                <input type="radio" name='test2' />
-                <span className='checkmark'></span>Blue
-            </label>
-            <label className='sidebar-label-container'>
-                <input type="radio" name='test2' />
-                <span className='checkmark'></span>Green
-            </label>
-            <label className='sidebar-label-container'>
-                <input type="radio" name='test2' />
-                <span className='checkmark'></span>White
-            </label> */}
+         
             <h2 className='sidebar-title color-title'>Colors</h2>
-<Input></Input>
+            <label className='sidebar-label-container'>
+                    <input onChange={handleChange} type="radio" value="" name="test3" />
+                    <span className='checkmark'></span>All
+                </label>
+
+
+                
+                <Input handleChange={handleChange}
+                    value="black"
+                    title="Black"
+                    name="test1"
+                    color="black"
+                ></Input>
+
+                <Input handleChange={handleChange}
+                    value="blue"
+                    title="Blue"
+                    name="test1"
+                    color="blue"
+                ></Input>
+                <Input handleChange={handleChange}
+                    value="green"
+                    title="Green"
+                    name="test1"
+                    color="green"
+                ></Input>
+                <Input handleChange={handleChange}
+                    value="white"
+                    title="White"
+                    name="test1"
+                    color="white"
+                ></Input>
         </div>
     );
 };
