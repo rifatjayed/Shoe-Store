@@ -1,17 +1,18 @@
 import React from 'react';
 import './Recommended.css'
+import Button from '../Share/Button';
 
-const Recommended = () => {
+const Recommended = ({handleClick}) => {
     return (
         <div>
             <h1 className='recommeded-title'>Recommeded</h1>
             <div className='recommeded-flex'>
-                <button className='btns'>All Products</button>
-            <button className='btns'>Nike</button>
-            <button className='btns'>Adidas</button>
-            <button className='btns'>Puma</button>
-            <button className='btns'>Vans</button>
-  
+            <Button onclickHandler={handleClick} value="" title="All"></Button>    
+ <Button onclickHandler={handleClick} value="Nike" title="Nike"></Button>
+ <Button onclickHandler={handleClick} value="Adiddas" title="Adiddas"></Button>
+ <Button onclickHandler={handleClick} value="Puma" title="Puma"></Button>
+ <Button onclickHandler={handleClick} value="Vans" title="Vans"></Button>
+ 
             </div>
           
         </div>

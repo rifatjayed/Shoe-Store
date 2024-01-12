@@ -19,26 +19,26 @@ const Color = ({handleChange}) => {
                 <Input handleChange={handleChange}
                     value="black"
                     title="Black"
-                    name="test1"
+                    name="test3"
                     color="black"
                 ></Input>
 
                 <Input handleChange={handleChange}
                     value="blue"
                     title="Blue"
-                    name="test1"
+                    name="test3"
                     color="blue"
                 ></Input>
                 <Input handleChange={handleChange}
                     value="green"
                     title="Green"
-                    name="test1"
+                    name="test3"
                     color="green"
                 ></Input>
                 <Input handleChange={handleChange}
                     value="white"
                     title="White"
-                    name="test1"
+                    name="test3"
                     color="white"
                 ></Input>
         </div>

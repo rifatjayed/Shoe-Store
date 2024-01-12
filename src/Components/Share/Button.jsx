@@ -1,10 +1,8 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({onclickHandler, value, title}) => {
     return (
-        <div>
-            <h1>button</h1>
-        </div>
+<button onClick={onclickHandler} value={value} className='btns'>{title}</button>
     );
 };
 

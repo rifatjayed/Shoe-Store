@@ -83,3 +83,9 @@ li{
   list-style: none;
 }
 
+.card{
+  height: 390px;
+}
+.card img{
+  height: 60%;
+}
